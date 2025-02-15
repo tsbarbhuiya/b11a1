@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Global Styles */
+
+.bg-blue{
+    background-color: rgba(84, 144, 245, 0.2);
+}
+
+.bg-green{
+    background-color: #C6E4D6;
+}
+
+.bg-yellow{
+    background-color: #F7EBCF;
+}
+
+.card-border{
+    border: 1px solid rgba(14, 14, 14, 0.15);
+}
+
+
+/* Nav Bar Style */
+
+.nav-center{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: 100px;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.nav h1{
+    font-family: "Fira Sans",sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: #0E0E0E;
+}
+
+.nav .btn{
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #006A50;
+    border: 1px solid #006A50;
+    border-radius: 8px;
+    padding: 13px 30px;
+}
+
+/* Hero Section Style */
+
+.hero{
+    display: flex;
+    justify-content: center;
+    width: 1280px;
+    margin: 0% 9.7%;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+}
+
+.first-container{
+    display: flex;
+    justify-content: space-between;
+    width: 91%;
+    height: 560px;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.web-name{
+    margin: 0;
+    font-family: "Fira Sans",sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #0E0E0E;
+    opacity: 0.5;
+}
+
+.first-header{
+    font-family: "Fira Sans",sans-serif;
+    font-family: 700;
+    color: #0E0E0E;
+    font-size: 56px;
+    margin: 16px 0px 24px 0px;
+}
+
+.hero-btn{
+    background-color: #006A50;
+    color: #FFFFFF;
+    border-radius: 8px;
+    padding: 20px 40px;
+    border-style: none;
+    font-family: "Fira Sans",sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* Pillars Part Style */
+
+.pillars{
+    display: flex;
+    justify-content: center;
+    width: 1280px;
+    margin: 80px 9.7%;
+    background-color: #F1F1F3;
+}
+
+.second-container{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.second-header{
+    margin: 0;
+    font-family: "Fira Sans",sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #0E0E0E;
+}
+
+.ideas{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding: 32px;
+    width: 302px;
+    border-radius: 16px;
+}
+
+
+
+.cards img{
+    width: 62px;
+    height: 62px;
+}
+
+.cards h3{
+    text-align: left;
+    margin: 0;
+    margin-top: 24px;
+    font-family: "Fira Sans",sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #0E0E0E;
+    opacity: 0.8;
+}
+
+.cards p{
+    text-align: left;
+    width: 90%;
+    margin-top: 0;
+    margin-top: 12px;
+    font-family: "Fira Sans",sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+/* Vision Part Style */
+
+.vision{
+    display: flex;
+    justify-content: center;
+    width: 1280px;
+    margin: 0% 9.7%;
+    background-color: #F1F1F3;
+}
+
+.third-container{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.second-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding: 24px;
+    width: 410.67px;
+    border-radius: 16px;
+}
+
+.second-card img{
+    width: 62px;
+    height: 62px;
+}
+
+.second-card h3{
+    text-align: left;
+    margin: 0;
+    margin-top: 24px;
+    font-family: "Fira Sans",sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #0E0E0E;
+    opacity: 0.8;
+}
+
+.second-card p{
+    text-align: left;
+    width: 90%;
+    margin-top: 0;
+    margin-top: 12px;
+    font-family: "Fira Sans",sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.learn-blue, .learn-green, .learn-yellow{
+    width: 35%;
+    border-radius: 8px;
+    font-style: "Fira Sans",sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+    border-style: none;
+    padding: 11px 20px;
+}
+
+.learn-blue{
+    background-color: #5490F5;
+    margin-top: 17px;
+
+}
+
+.learn-green{
+    background-color: #09A15C;
+    margin-top: 41px;
+}
+
+.learn-yellow{
+    background-color: #FFC239;
+    margin-top: 25px;
+}
