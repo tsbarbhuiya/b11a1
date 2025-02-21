@@ -258,3 +258,132 @@
     background-color: #FFC239;
     margin-top: 25px;
 }
+
+/* Quote Style part */
+
+
+.quote{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 1280px;
+    margin: 32px 9.7% 0px 9.7%;
+    background-color: #F1F1F3;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+}
+
+.background-image-quote{
+    margin: 25px 24px;
+}
+
+.quote-container{
+    display: flex;
+    width: 1232px;
+    flex-direction: column;
+    justify-content: left;
+    margin: -60px 24px 48px 24px;
+}
+
+.qoute-writting{
+    margin: 0;
+    font-family: "Fira Sans",sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    opacity: 0.8;
+    color: #0E0E0E;
+    margin-bottom: 12px;
+}
+
+.author-name{
+    margin: 0;
+    font-family: "Fira Sans",sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    opacity: 0.8;
+    color: #0E0E0E;
+    text-align: left;
+    margin-bottom: 4px;
+}
+
+.author-rank{
+    margin: 0;
+    font-family: "Fira Sans",sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0E0E0E;
+    text-align: left;
+    opacity: 0.6;
+}
+
+/* Opinion Part Style */
+
+.opinion{
+    display: flex;
+    flex-direction: column;
+    width: 1280px;
+    margin: 80px 9.7%;
+    background-color: #F1F1F3;
+}
+
+.opinion-header{
+    font-family: "Fira Sans",sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #0E0E0E;
+}
+
+.opinion-table{
+    margin: 32px;
+}
+
+table{
+    width: 1216px;
+    border-collapse: collapse;
+}
+
+thead{
+    text-align: left;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+}
+
+thead th {
+    background-color: #C6E4D6;
+    font-family: "Fira Sans",sans-serif;
+    color: #0E0E0E;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.opinion-table td{
+    border: 1px solid rgba(14, 14, 14, 0.15);
+}
+
+.opinion-table td, th{ 
+    padding: 24px;
+}
+
+.questions{
+    font-family: "Fira Sans",sans-serif;
+    font-weight: 600;
+    color: #0E0E0E;
+    font-size: 16px;
+}
+
+.options-area{
+    text-align: center;
+}
+
+.options{
+    width: 152px;
+    background-color: #C6E4D6;
+    border: 1px solid #0E0E0E;
+    margin: 0 auto;
+    padding: 10px 16.5px;
+    font-family: "Fira Sans",sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #0E0E0E;
+    border-radius: 4px;
+}
