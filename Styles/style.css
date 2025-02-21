@@ -18,6 +18,10 @@
     border: 1px solid rgba(14, 14, 14, 0.15);
 }
 
+.margin-top{
+    margin-top: 24px;
+}
+
 
 /* Nav Bar Style */
 
@@ -108,7 +112,7 @@
     justify-content: center;
     width: 1280px;
     margin: 80px 9.7%;
-    background-color: #F1F1F3;
+    background-color: #FFFFFF;
 }
 
 .second-container{
@@ -179,7 +183,7 @@
     justify-content: center;
     width: 1280px;
     margin: 0% 9.7%;
-    background-color: #F1F1F3;
+    background-color: #FFFFFF;
 }
 
 .third-container{
@@ -268,7 +272,7 @@
     flex-direction: column;
     width: 1280px;
     margin: 32px 9.7% 0px 9.7%;
-    background-color: #F1F1F3;
+    background-color: #FFFFFF;
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
 }
@@ -324,7 +328,7 @@
     flex-direction: column;
     width: 1280px;
     margin: 80px 9.7%;
-    background-color: #F1F1F3;
+    background-color: #FFFFFF;
 }
 
 .opinion-header{
@@ -386,4 +390,100 @@ thead th {
     font-size: 16px;
     color: #0E0E0E;
     border-radius: 4px;
+}
+
+/* Recent News Styles */
+
+.recent-news{
+    display: flex;
+    flex-direction: column;
+    width: 1280px;
+    margin: 0% 9.7% 32px 9.7%;
+    background-color: #FFFFFF;
+}
+
+.news-header{
+    margin: 0;
+    font-family: "Fira Sans",sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #0E0E0E;
+    margin-bottom: 24px;
+}
+
+.news-info{
+    margin: 0;
+    font-family: "Fira Sans",sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0E0E0E;
+    opacity: 0.7;
+}
+
+/* Actual News Part Styles */
+
+.actual-news{
+    display: flex;
+    flex-direction: column;
+    width: 1280px;
+    margin: 0% 9.7%;
+    background-color: #FFFFFF;
+}
+
+.news-container{
+    width: 1184px;
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    margin: 48px;
+}
+
+.satelite{
+    border-radius: 24px;
+}
+
+.news-article-container{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.actual-news-header{
+    font-family: "Fira Sans",sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: #0E0E0E;
+    opacity: 0.8;
+    margin: 0;
+}
+
+.al-jazeera{
+    margin-top: 12px;
+}
+
+.actual-news-date-and-time{
+    display: flex;
+    gap: 12px;
+    margin: 12px 0px;
+}
+
+.news-info-writting{
+    font-family: "Fira Sans",sans-serif;
+    line-height: 24px;
+    font-size: 16px;
+    color: #0E0E0E;
+    opacity: 0.7;
+    margin: 0;
+}
+
+.news-read{
+    border-radius: 8px;
+    font-style: "Fira Sans",sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #FFFFFF;
+    border-style: none;
+    padding: 13px 26px;
+    background-color: #006A50;
+    margin-top: 32px;
 }
