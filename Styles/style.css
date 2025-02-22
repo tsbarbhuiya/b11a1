@@ -61,6 +61,11 @@
     padding: 13px 30px;
 }
 
+.btn:hover{
+    background-color: #006A50;
+    color: #FFFFFF;
+}
+
 /* Hero Section Style */
 
 .hero{
@@ -107,6 +112,10 @@
     font-family: "Fira Sans",sans-serif;
     font-size: 18px;
     font-weight: 600;
+}
+
+.hero-btn:hover{
+    background-color: #0E0E0E;
 }
 
 /* Pillars Part Style */
@@ -257,14 +266,26 @@
 
 }
 
+.learn-blue:hover{
+    background-color: #0E0E0E;
+}
+
 .learn-green{
     background-color: #09A15C;
     margin-top: 41px;
 }
 
+.learn-green:hover{
+    background-color: #0E0E0E;
+}
+
 .learn-yellow{
     background-color: #FFC239;
     margin-top: 25px;
+}
+
+.learn-yellow:hover{
+    background-color: #0E0E0E;
 }
 
 /* Quote Style part */
@@ -396,6 +417,11 @@ thead th {
     border-radius: 4px;
 }
 
+.options:hover{
+    background-color: #006A50;
+    color: #FFFFFF;
+}
+
 /* Recent News Styles */
 
 .recent-news{
@@ -492,6 +518,10 @@ thead th {
     margin-top: 32px;
 }
 
+.news-read:hover{
+    background-color: #0E0E0E;
+}
+
 /* Donate Section Styles */
 
 .donate{
@@ -542,6 +572,11 @@ thead th {
     border: 1px solid rgba(14, 14, 14, 0.15);
 }
 
+.donate-btn:hover{
+    background-color: #006A50;
+    color: #FFFFFF;
+}
+
 .write-donation{
     width: 952px;
     padding: 20px 40px;
@@ -571,6 +606,10 @@ thead th {
     padding: 17px 34px;
     background-color: #006A50;
     margin-top: 32px;
+}
+
+.donate-now-btn:hover{
+    background-color: #0E0E0E;
 }
 
 /* Newsletter Part Styles */
@@ -647,6 +686,10 @@ thead th {
     border-style: none;
 }
 
+.subscribe-btn:hover{
+    background-color: #0E0E0E;
+}
+
 .footer-note{
     width: 622px;
     font-family: "Fira Sans",sans-serif;
@@ -654,4 +697,38 @@ thead th {
     color: #0E0E0E;
     opacity: 0.7;
     margin: 0;
+}
+
+/* Footer Part Styles */
+
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 64px;
+    margin: 50px 160px;
+    background-color: #FFFFFF;
+}
+
+.footer-info{
+    font-family: "Fira Sans",sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: #0E0E0E;
+    margin: 0;
+}
+
+.social-media-icons{
+    width: 121px;
+    display: flex;
+    justify-content: space-between;
 }
